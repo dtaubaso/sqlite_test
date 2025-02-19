@@ -34,6 +34,8 @@ def get_records():
 # Crear tabla si no existe
 create_table()
 
+st.set_page_config(page_title="SQLite Streamlit App", page_icon="✏️")
+
 st.title("SQLite Streamlit App")
 
 # Botón para agregar UUID
